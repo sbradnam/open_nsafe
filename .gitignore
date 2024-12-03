@@ -2,6 +2,7 @@
 # this files are not useful
 *.pyc
 .coverage
+coverage.xml
 
 # These are generated folders for cache
 __pycache__/
