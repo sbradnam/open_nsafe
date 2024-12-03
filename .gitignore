@@ -1,0 +1,10 @@
+
+# this files are not useful
+*.pyc
+.coverage
+
+# These are generated folders for cache
+__pycache__/
+venv/*
+.vscode/*.json
+
