@@ -11,13 +11,20 @@ An open data visualisation repository developed for nuclear applications.
 
 ## Installation
 
-We reccomend that Open NSafe is installed within a python virtual environment, to ensure any dependencies do not interefer with the global python environment.
+We reccomend that Open NSafe is installed within a python virtual environment, to ensure any dependencies do not interfere with the global python environment.
 
 ```
 python3 -m venv open_nsafe_venv
 source open_nsafe_venv/bin/activate
 pip3 install --upgrade pip
+```
+
+Once the virtual environment is set up, clone and install Open NSafe into the virtual environment.
+
+```
 git clone https://github.com/JADE-V-V/JADE.git
 cd open_nsafe
 pip3 install .
 ```
+
+After the initial installation, to use Open NSafe in the future, the user will only have to activate the virtual environment, by navigating to the folder containing the virtual environment, and running `source open_nsafe_venv/bin/activate`.
