@@ -7,7 +7,7 @@ An open data visualisation repository developed for nuclear applications.
 
 ## Requirements
 - Linux or MacOSX operating system.
-- Python >= 3.9 installation.
+- Python >= 3.10 installation.
 
 ## Installation
 

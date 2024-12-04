@@ -17,7 +17,7 @@ class TestPlot:
         assert True
 
     def test_plot_with_limits(self):
-        fig = plot(INVENTORY, 'Test Inventory',  xlim=[0.0, 2000.0], ylim=[1e-8, 10])
+        fig = plot(INVENTORY, 'Test Inventory', xlim=[0.0, 2000.0], ylim=[1e-8, 10])
         assert True
     
 
