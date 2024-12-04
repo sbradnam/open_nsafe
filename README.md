@@ -1,1 +1,2 @@
+[![Testing](https://github.com/sbradnam/open_nsafe/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/sbradnam/open_nsafe/actions/workflows/python-package.yml)
 [![codecov](https://codecov.io/gh/sbradnam/open_nsafe/graph/badge.svg?token=9RHSDIUE7O)](https://codecov.io/gh/sbradnam/open_nsafe)
