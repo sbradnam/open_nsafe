@@ -4,8 +4,8 @@ from open_nsafe.inventory import Inventory
 from open_nsafe.plotting import plot
 
 cp = os.path.dirname(os.path.abspath(__file__))
-DEMO_INVENTORY_FILE = os.path.join(cp, '..', 'resources', 'demo_hcpb_fw.json')
-PWR_INVENTORY_FILE = os.path.join(cp, '..', 'resources', 'pwr_uo2_15.json')
+DEMO_INVENTORY_FILE = os.path.join(cp, 'resources', 'demo_hcpb_fw.json')
+PWR_INVENTORY_FILE = os.path.join(cp, 'resources', 'pwr_uo2_15.json')
 
 def main():
     # DEMO HCPB inventory plot
