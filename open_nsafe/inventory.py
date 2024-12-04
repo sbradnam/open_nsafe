@@ -19,7 +19,7 @@ class Inventory:
     masses : dict[str : list[float]]
 
     @classmethod
-    def from_json(cls, json_filename : str | os.PathLike, filter : float = 0.0) -> Inventory:
+    def from_json(cls, json_filename : str | os.PathLike, filter : float = 0.0, normalisation : float = 1.0) -> Inventory:
         times = {}
         masses = {}
         with pp.JSONReader(json_filename) as output:
@@ -34,7 +34,7 @@ class Inventory:
                             masses[isotope] = []
                         else:
                             times[isotope].append(time)
-                            masses[isotope].append(mass)
+                            masses[isotope].append(normalisation * mass)
         return cls(times = times, masses = masses)
 
 
