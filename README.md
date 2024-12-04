@@ -1,0 +1,1 @@
+[![codecov](https://codecov.io/gh/sbradnam/open_nsafe/graph/badge.svg?token=9RHSDIUE7O)](https://codecov.io/gh/sbradnam/open_nsafe)
